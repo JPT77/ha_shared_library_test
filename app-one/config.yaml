@@ -1,0 +1,8 @@
+name: "Shared Lib Test – App One"
+version: "0.1.0"
+slug: "shared_lib_test_one"
+description: "Build test app using the shared Python library"
+init: false
+arch:
+  - amd64
+  - aarch64
