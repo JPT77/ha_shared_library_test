@@ -1,6 +1,6 @@
 FROM ghcr.io/home-assistant/base:latest
 
-ARG LIB_REPO="https://codeberg.org/JPT5/ha_shared_library_test.git"
+ARG LIB_REPO="https://github.com/JPT77/ha_shared_library_test.git"
 ARG LIB_REF="main"
 
 RUN apk add --no-cache python3 py3-pip git
